@@ -70,7 +70,7 @@ export async function listMovies(signal) {
   const url = new URL(`${API_BASE_URL}/movies?is_showing=true`);
   const addReviews = populateReviews(signal);
   return await fetchJson(url, { headers, signal }, []).then((movies) =>
-    Promise.all(movies.map(addReviews))
+    console.log(movies)||Promise.all(movies.map(addReviews))
   );
 }
 

@@ -1,10 +1,19 @@
-# WeLoveMovies Frontend Application
+# Project Name: WeLoveMovies Frontend Application
+![alt text](./src/screenshot/mainpage.png)
 
-This is the Front End Application for the WeLoveMovies project. Follow the instructions below.
+Live site: https://we-love-movie-b8dk.onrender.com
 
-## Installation
+## Description
+Whatever routes the user choose, the app will access data through database and provide the information of movies, theaters, and reviews accordingly.<br/>
 
-1. Fork / clone this repository.
-1. Run `npm install`.
+## Techonology Used
+ - Full stack management system.
+ - Implemented react router and express to build a RESTful API in order to make HTTP requests for all of the movies data stored on the connected PostgreSQL database.
+ - Created CRUD functions and Knex queries to handle data going to and coming from the database.
+ - Used Git to track changes and versions while keeping sensitive information from being pushed to repositories.
+ - Used bootstrap to styling the webpage.
+ - Technology: React, Node.js, Express, Knex, and PostgreSQL.
 
-Use `npm start` to run the application. If you deploy this application, create a `.env.production` file similar to the `.env.development` file.
+## Installation instructions
+1. Fork and clone this repository and the backend server repository.
+2. Run npm install to install project dependencies.
